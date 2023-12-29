@@ -5,7 +5,7 @@ class SimpleCounterComponent extends Component {
     super();
     this.state = {
       counter: 0,
-      toggle: false,
+      toggle: true,
     };
   }
 
