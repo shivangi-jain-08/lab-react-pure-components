@@ -1,0 +1,1 @@
+The PureCounterComponent is likely performing better because it smartly decides when to update, only doing so when necessary changes occur, thus saving resources. On the other hand, the SimpleCounterComponent updates every time its parent does, even when it's not needed. So, if you want efficiency and updates only when things change, go for PureCounterComponent.
